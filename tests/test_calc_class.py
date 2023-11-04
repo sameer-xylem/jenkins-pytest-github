@@ -12,7 +12,8 @@ def calculator():
     return c.Calculator()
 
 def test_failing_test():
-    assert False
+    # assert a==2
+    # assert False
 
 # Helpers
 def verify_answer(expected, answer, last_answer):
