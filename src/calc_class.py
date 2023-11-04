@@ -9,7 +9,7 @@ import src.calc_func as calc
 class Calculator(object):
     def __init__(self):
         self._last_answer = 0.0
-        return self
+        # return self
 
     @property
     def last_answer(self):
