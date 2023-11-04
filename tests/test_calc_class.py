@@ -12,7 +12,7 @@ def calculator():
     return c.Calculator()
 
 def test_failing_test():
-    # assert a==2
+    assert 2==2
     # assert False
 
 # Helpers
