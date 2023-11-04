@@ -11,6 +11,8 @@ NUMBER_2 = 2.0
 def calculator():
     return c.Calculator()
 
+def test_failing_test():
+    assert False
 
 # Helpers
 def verify_answer(expected, answer, last_answer):
