@@ -9,6 +9,7 @@ import src.calc_func as calc
 class Calculator(object):
     def __init__(self):
         self._last_answer = 0.0
+        # return self
 
     @property
     def last_answer(self):
@@ -41,3 +42,4 @@ if __name__ == "__main__":
     c = Calculator()
     print(c.add(10, 23))
     print(c.multiply(11, 11))
+    print(c.bat)

@@ -18,6 +18,8 @@ pipeline {
             steps{
                 sh '''
                 source env/bin/activate
+                export PYTHONPATH="${PYTHONPATH}:./src"
+                pylint src/*.py -E   
                 pytest
                 '''
             }
