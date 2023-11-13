@@ -84,3 +84,5 @@ def test_minimum(calculator, a, b, expected):
     verify_answer(expected, answer, calculator.last_answer)
 
 # cool
+
+# something
